@@ -101,4 +101,3 @@ def main(args: Optional[list[str]] = None) -> None:
     finally:
         node.destroy_node()
         rclpy.shutdown()
-
